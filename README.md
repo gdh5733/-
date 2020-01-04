@@ -19,3 +19,7 @@
   
   eureka-server3   eureka服务
   
+  eureka-client-consume-feign feign服务
+  
+  
+  
