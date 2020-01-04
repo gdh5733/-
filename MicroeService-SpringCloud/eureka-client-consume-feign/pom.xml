@@ -8,10 +8,10 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.eureka-client3</groupId>
-    <artifactId>eueka-client3</artifactId>
+    <groupId>com.eureka-client2</groupId>
+    <artifactId>eureka-client2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-client</name>
+    <name>eureka-client-consum</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -47,7 +47,15 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!--结束-->
+
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-feign -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
+
 
         <!-- spring-cloud-starter-ribbon  集成ribbon  开始-->
         <dependency>
@@ -62,6 +70,13 @@
 
         <!--结束-->
 
+        <!--  lombok 主要用于@data @slf4j的使用-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
 
     </dependencies>
 
