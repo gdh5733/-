@@ -21,7 +21,7 @@ public class TestController {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String REST_URL_PREFIX = "http://eureka-client/test1";
+    private static final String REST_URL_PREFIX = "http://eureka-client3/test1";
 
     @GetMapping("/getClient1Test1")
     public String getClient1Test1() {

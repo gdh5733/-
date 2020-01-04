@@ -7,7 +7,7 @@ eureka:
     prefer-ip-address: true #访问路径显示IP地址
 spring:
   application:
-    name: eureka-client4
+    name: eureka-client3
 
 #应用端口号
 server:
