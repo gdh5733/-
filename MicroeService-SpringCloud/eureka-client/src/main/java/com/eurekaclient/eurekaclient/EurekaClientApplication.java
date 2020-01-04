@@ -13,6 +13,7 @@ public class EurekaClientApplication {
     public static void main(String[] args) {
         SpringApplication.run(EurekaClientApplication.class, args);
         System.out.println("添加启动类!!!");
+        System.out.println("添加启动类!!!");
     }
 
 }
