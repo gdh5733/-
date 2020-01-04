@@ -5,9 +5,13 @@
 - SpringCloud
 
 
-  eureka-client 客户端
+  eureka-client 客户端（作为负载均衡服务端）
    
-  eureka-client2 客户端
+  eureka-client2 客户端（作为负载均衡消费端）
+  
+  eureka-client3 客户端（作为负载均衡服务端）
+  
+  eureka-client4 客户端（作为负载均衡服务端）
   
   eureka-server eureka服务
   
