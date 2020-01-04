@@ -1,0 +1,17 @@
+# 应用端口号
+server:
+  port: 8766
+
+# 配置spring的应用名
+spring:
+  application:
+    name: eureka2
+
+# 默认不注册自己
+eureka:
+  client:
+    register-with-eureka: false
+
+    # 手动配置地址
+    service-url:
+      defaultZone: http://eureka3:8767/eureka/,http://eureka:8765/eureka/

@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka2:8766/eureka/,http://eureka3:8767/eureka/,http://eureka:8765/eureka/
+  instance:
+    instance-id: dehanClient
+    prefer-ip-address: true #访问路径显示IP地址
+spring:
+  application:
+    name: eureka-client
+
+#应用端口号
+server:
+  port: 8778
