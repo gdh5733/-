@@ -11,4 +11,4 @@ spring:
 
 #应用端口号
 server:
-  port: 8779
+  port: 8112

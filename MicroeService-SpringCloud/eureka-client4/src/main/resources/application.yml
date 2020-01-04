@@ -3,12 +3,12 @@ eureka:
     service-url:
       defaultZone: http://eureka2:8002/eureka/,http://eureka3:8003/eureka/,http://eureka:8001/eureka/
   instance:
-    instance-id: dehanClient
+    instance-id: dehanClient4
     prefer-ip-address: true #访问路径显示IP地址
 spring:
   application:
-    name: eureka-client
+    name: eureka-client4
 
 #应用端口号
 server:
-  port: 8111
+  port: 8114
