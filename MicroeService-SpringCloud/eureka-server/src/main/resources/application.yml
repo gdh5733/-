@@ -1,6 +1,6 @@
 # 应用端口号
 server:
-  port: 8765
+  port: 8001
 
 # 配置spring的应用名
 spring:
@@ -14,4 +14,4 @@ eureka:
 
     # 手动配置地址
     service-url:
-      defaultZone: http://eureka2:8766/eureka/,http://eureka3:8767/eureka/
+      defaultZone: http://eureka2:8002/eureka/,http://eureka3:8003/eureka/
