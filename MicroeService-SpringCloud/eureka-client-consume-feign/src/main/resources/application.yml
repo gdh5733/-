@@ -12,3 +12,8 @@ spring:
 #应用端口号
 server:
   port: 8119
+
+
+feign:
+  hystrix:
+    enabled: true #开启Hystrix支持

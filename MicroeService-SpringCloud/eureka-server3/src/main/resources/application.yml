@@ -15,3 +15,7 @@ eureka:
     # 手动配置地址
     service-url:
       defaultZone: http://eureka2:8002/eureka/,http://eureka:8001/eureka/
+
+  server:
+    enable-self-preservation: false #关闭自我保护模式(缺省为打开)
+    eviction-interval-timer-in-ms: 1000 #续期时间,即扫描失效服务的间隔时间(毫秒)
