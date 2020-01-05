@@ -1,0 +1,16 @@
+
+
+# localhost name resolution is handled within DNS itself.
+	127.0.0.1       eureka
+	
+	127.0.0.1       eureka2
+	
+    127.0.0.1       eureka3
+	
+	127.0.0.1       localhost
+	
+	
+	
+
+
+
