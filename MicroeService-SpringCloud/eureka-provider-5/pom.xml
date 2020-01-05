@@ -8,10 +8,10 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.eureka-client2</groupId>
-    <artifactId>eureka-client2</artifactId>
+    <groupId>com.eureka-provider</groupId>
+    <artifactId>eureka-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-client2</name>
+    <name>eureka-provier-5</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -62,13 +62,13 @@
 
         <!--结束-->
 
-        <!--  lombok 主要用于@data @slf4j的使用-->
+        <!--  -->
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.8</version>
-            <scope>provided</scope>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-core</artifactId>
+            <version>1.5.12</version>
         </dependency>
+
 
     </dependencies>
 
