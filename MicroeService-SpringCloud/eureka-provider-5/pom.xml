@@ -11,7 +11,7 @@
     <groupId>com.eureka-provider</groupId>
     <artifactId>eureka-provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-provier-5</name>
+    <name>eureka-provier-5-hystix</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
