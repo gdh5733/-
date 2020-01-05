@@ -16,4 +16,4 @@ server:
 
 feign:
   hystrix:
-    enabled: true #开启Hystrix支持
+    enabled: true #开启Hystrix  熔断和降级处理支持
