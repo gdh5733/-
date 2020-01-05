@@ -1,0 +1,2 @@
+1.Ribbon负载均衡 和 服务降级都是在客户端consum 进行处理的
+2.熔断是在服务端provide   @HystrixCommand(fallbackMethod = "handkeMeth")
